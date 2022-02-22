@@ -11,7 +11,7 @@ package fr.epsi.helloworld.Controller;
  */
 @RestController
 public class HelloWorldController {
-{{{{{{{{{
+
     @GetMapping(
             path = "/hello",
             produces = "text/plain")
