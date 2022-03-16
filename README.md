@@ -5,7 +5,7 @@ pipeline {
   
     stage('Clone sources') {
             steps{
-              git url:   'https://github.com/Sohaib42/agent-information'   
+              git url:   'https://github.com/Sohaib42/agent-information.git'   
             }
     }
   
