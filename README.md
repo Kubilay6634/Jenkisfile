@@ -2,6 +2,13 @@ pipeline {
   agent any
   
   stages {
+  
+    stage('Clone sources') {
+            steps{
+              git url:   'https://github.com/Sohaib42/agent-information'   
+            }
+    }
+  
     stage("build"){
             steps{
               echo 'Building Application'
